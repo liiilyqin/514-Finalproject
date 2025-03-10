@@ -33,8 +33,8 @@ The ESP32C3 recieve data and send it to step motor and LED. Also, command step m
 
 ## Display Device Enclosure
 The display device needs a window to show the LED light and need a function to push the button. Also, the enclosure should explain the step motor's visulaization.
-![Image text](pics/sensor_enclousre.png)  
-![Image text](pics/sensor_enclousre_2.png)  
+![Image text](pics/sensor_enclosure_2.png)
+![Image text](pics/sensor_enclosure.png)
 
 ## Device communicate  
 Materials: sound sensor, PCB, button, battery, gauge, color-coded LED  
