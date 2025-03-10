@@ -8,19 +8,19 @@ Our project aims to address this issue by using a sound detection sensor that mo
 
 ## System Architecture
 The system includes two devices(sensor device & display device), sensor device use MAX4466 to detect soudn level and transmit it to display device wirelessly through ESP32C3. When the display device recieve data, it will visualize the information through Step motor x27. Also, if the sound level excess the baseline, the LED will turn on to alter people. The button can turn off the light.
-![Image text](pics/514 final project system.png) 
+![Image text](pics/system.png) 
 
 ## Physical sketch  
 ![Image text](pics/physical.jpg)  
 
 ## Sensor Device Components  
 The sensor device includes a ESP32C3, a sound level detect sensor MAX4466 and a 3.7V 700mAh battery.
-![Image text](pics/sensor device components.png)
+![Image text](pics/sensor_device_components.png)
 
 ## Sensor Device Enclosure
 Since the MAX4466 needs microphone to detect data, the enclosure of the sensor device needs a space for microphone to recieve sound data.
-![Image text](pics/sensor enclosure 2.png)  
-![Image text](pics/sensor enclosure.png) 
+![Image text](pics/display_enclousre.png)  
+![Image text](pics/display_enclousre_2.png) 
 
 ## Display Device Components  
 The display device includes a ESP32C3, a step motoir x27, a LED, a resistor, a button and a 3.7V 700mAh battery.
@@ -33,8 +33,8 @@ The ESP32C3 recieve data and send it to step motor and LED. Also, command step m
 
 ## Display Device Enclosure
 The display device needs a window to show the LED light and need a function to push the button. Also, the enclosure should explain the step motor's visulaization.
-![Image text](pics/display enclousre 2.png)  
-![Image text](pics/display enclousre.png)  
+![Image text](pics/sensor_enclousre.png)  
+![Image text](pics/sensor_enclousre_2.png)  
 
 ## Device communicate  
 Materials: sound sensor, PCB, button, battery, gauge, color-coded LED  
