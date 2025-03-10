@@ -10,9 +10,6 @@ Our project aims to address this issue by using a sound detection sensor that mo
 The system includes two devices(sensor device & display device), sensor device use MAX4466 to detect soudn level and transmit it to display device wirelessly through ESP32C3. When the display device recieve data, it will visualize the information through Step motor x27. Also, if the sound level excess the baseline, the LED will turn on to alter people. The button can turn off the light.
 ![Image text](pics/system.png) 
 
-## Physical sketch  
-![Image text](pics/physical.jpg)  
-
 ## Sensor Device Components  
 The sensor device includes a ESP32C3, a sound level detect sensor MAX4466 and a 3.7V 700mAh battery.
 ![Image text](pics/sensor_device_components.png)
