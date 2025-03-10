@@ -6,23 +6,34 @@ In many clubs, loud and intense music is commonly played to create an energetic 
 Our project aims to address this issue by using a sound detection sensor that monitors noise levels in clubs. This device will transmit data wirelessly to dispaly device, which visualizes the information using a step motor. When the sound level above the baseline, The system alters DJs, helping to protect people from potential hearing damage. 
 
 ## System Architecture
-![Image text](pics/physical.jpg)  
+The system includes two devices(sensor device & display device), sensor device use MAX4466 to detect soudn level and transmit it to display device wirelessly through ESP32C3. When the display device recieve data, it will visualize the information through Step motor x27. Also, if the sound level excess the baseline, the LED will turn on to alter people. The button can turn off the light.
+![Image text](pics/514 final project system.png)  
 
 ## Physical sketch  
 ![Image text](pics/physical.jpg)  
 
 ## Sensor Device Components  
-![Image text](pics/sensor1.jpeg)
-
-## Display Device Components  
-Put the device on the room that holds parties to monitor the environment sound level. If the noise too load, the LED will turn on and give reminder to people they might interup their neibours. Also, people can see the current sound level by watching the guage needle on the device.  
-![Image text](pics/display.jpg)
+The sensor device includes a ESP32C3, a sound level detect sensor MAX4466 and a 3.7V 700mAh battery.
+![Image text](pics/sensor device components.png)
 
 ## Sensor Device Enclosure
-![Image text](pics/physical.jpg)  
+Since the MAX4466 needs microphone to detect data, the enclosure of the sensor device needs a space for microphone to recieve sound data.
+![Image text](pics/sensor enclosure 2.png)  
+![Image text](pics/sensor enclosure.png) 
 
-## Display Device Enclosure  
-![Image text](pics/physical.jpg)  
+## Display Device Components  
+The display device includes a ESP32C3, a step motoir x27, a LED, a resistor, a button and a 3.7V 700mAh battery.
+![Image text](pics/display.jpg)
+
+## Display Device PCB Design
+The ESP32C3 recieve data and send it to step motor and LED. Also, command step motor to visualize the information and control the LED through data and the button.
+![Image text](pics/sche.png)
+![Image text](pics/PCB.png)
+
+## Display Device Enclosure
+The display device needs a window to show the LED light and need a function to push the button. Also, the enclosure should explain the step motor's visulaization.
+![Image text](pics/display enclousre 2.png)  
+![Image text](pics/display enclousre.png)  
 
 ## Device communicate  
 Materials: sound sensor, PCB, button, battery, gauge, color-coded LED  
