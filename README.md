@@ -19,8 +19,8 @@ The sensor device includes a ESP32C3, a sound level detect sensor MAX4466 and a 
 
 ## Sensor Device Enclosure
 Since the MAX4466 needs microphone to detect data, the enclosure of the sensor device needs a space for microphone to recieve sound data.
-![Image text](pics/display_enclousre.png)  
-![Image text](pics/display_enclousre_2.png) 
+![Image text](pics/sensor_enclosure.png)  
+![Image text](pics/sensor_enclosure_2.png) 
 
 ## Display Device Components  
 The display device includes a ESP32C3, a step motoir x27, a LED, a resistor, a button and a 3.7V 700mAh battery.
