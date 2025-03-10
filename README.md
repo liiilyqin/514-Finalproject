@@ -5,21 +5,26 @@ In many clubs, loud and intense music is commonly played to create an energetic 
 
 Our project aims to address this issue by using a sound detection sensor that monitors noise levels in clubs. This device will transmit data wirelessly to dispaly device, which visualizes the information using a step motor. When the sound level above the baseline, The system alters DJs, helping to protect people from potential hearing damage. 
 
-##System Architecture
+## System Architecture
 ![Image text](pics/physical.jpg)  
 
-##Physical sketch  
+## Physical sketch  
 ![Image text](pics/physical.jpg)  
 
-#Sensor Sketch and Picture  
-I want to use** SparkFun Sound Detector **to detect the sound level. Put this sensor in the device and guide the gauge to show sound level. If the level over the setting value, turn on the LED to give people a reminder.  
+## Sensor Device Components  
 ![Image text](pics/sensor1.jpeg)
 
-#Display Sketch  
+## Display Device Components  
 Put the device on the room that holds parties to monitor the environment sound level. If the noise too load, the LED will turn on and give reminder to people they might interup their neibours. Also, people can see the current sound level by watching the guage needle on the device.  
 ![Image text](pics/display.jpg)
 
-#Device communicate  
+## Sensor Device Enclosure
+![Image text](pics/physical.jpg)  
+
+## Display Device Enclosure  
+![Image text](pics/physical.jpg)  
+
+## Device communicate  
 Materials: sound sensor, PCB, button, battery, gauge, color-coded LED  
 Connection: Use PCB to connect and control all the materials. Input sound sensor signals and output different points to gauge, also different color to LED. Use a button to control power from the battery that supplies this device.  
 Algorithms:  DSP algorithm to process sound signals  
