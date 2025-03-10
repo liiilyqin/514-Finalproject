@@ -12,7 +12,7 @@ The system includes two devices(sensor device & display device), sensor device u
 
 ## Sensor Device Components  
 The sensor device includes a ESP32C3, a sound level detect sensor MAX4466 and a 3.7V 700mAh battery.
-![Image text](pics/sensor_device_components.png)
+![Image text](pics/display.jpg)
 
 ## Sensor Device Enclosure
 Since the MAX4466 needs microphone to detect data, the enclosure of the sensor device needs a space for microphone to recieve sound data.
