@@ -1,7 +1,9 @@
 # 514-Finalproject
 
-# Noise monitor that use in parties
-Nowadays, many people share rooms or live in apartments with many people. If they hold parties, it would be very easy to interup their neighbors since they don't know the sound level they make. Therefore, I decide to make a noise monitor for parties to give people reminder and build a peaceful living environment for people. The device is designed just for parties and if people are too load it would give reminder.  
+# Noise monitor that use in clubs
+In many clubs, loud and intense music is commonly played to create an energetic atmosphere that helps people relax. However, to enhance this effect, DJs often push the volume to high levels, which can pose serious risks to hearing health. Specifically, prolonged exposure to noise levels of 70-85 dB (e.g., vacuum cleaners) may cause mild hearing damage, levels above 85 dB (e.g., heavy traffic) can harm hearing after 8 hours, exposure to 100 dB (e.g., noisy nightclubs) can affect hearing within 15 minutes, and noise exceeding 120 dB (e.g., airplane engines) poses an immediate risk of permanent damage.
+
+Our project aims to address this issue by using a sound detection sensor that monitors noise levels in clubs. This device will transmit data wirelessly to dispaly device, which visualizes the information using a step motor. When the sound level above the baseline, The system alters DJs, helping to protect people from potential hearing damage. 
 
 #Physical sketch  
 ![Image text](pics/physical.jpg)  
